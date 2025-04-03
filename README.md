@@ -19,26 +19,6 @@ Este projeto é um MVP (Minimum Viable Product) para gerenciar as escalas de ser
 - [shadcn/ui](https://ui.shadcn.com/) - Componentes de UI reutilizáveis
 - [Lucide React](https://lucide.dev/) - Biblioteca de ícones
 
-escala-acolitos/
-├── app/                    # Diretórios de rotas do Next.js App Router
-│   ├── admin/              # Área administrativa
-│   ├── acolito/            # Área do acólito
-│   ├── cadastro/           # Página de cadastro
-│   ├── login/              # Página de login
-│   ├── globals.css         # Estilos globais
-│   ├── layout.tsx          # Layout principal
-│   └── page.tsx            # Página inicial
-├── components/             # Componentes reutilizáveis
-│   ├── admin-sidebar.tsx   # Barra lateral administrativa
-│   ├── acolito-sidebar.tsx # Barra lateral do acólito
-│   ├── ui/                 # Componentes de UI (shadcn)
-│   └── theme-provider.tsx  # Provedor de tema
-├── lib/                    # Utilitários e funções auxiliares
-├── public/                 # Arquivos estáticos
-├── next.config.js          # Configuração do Next.js
-├── tailwind.config.js      # Configuração do Tailwind CSS
-├── tsconfig.json           # Configuração do TypeScript
-└── package.json            # Dependências e scripts
 
 ## 🛠️ Instalação e Uso
 
