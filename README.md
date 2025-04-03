@@ -5,7 +5,7 @@
 
 Um sistema de gerenciamento de escala para acólitos e coroinhas de igrejas católicas, desenvolvido com Next.js, TypeScript e shadcn/ui.
 
-![Escala de Acólitos](https://placeholder.svg?height=400&width=800)
+![Escala de Acólitos]
 
 ## 📋 Sobre o Projeto
 
