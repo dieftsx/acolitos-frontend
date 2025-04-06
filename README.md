@@ -5,8 +5,6 @@
 
 Um sistema de gerenciamento de escala para acólitos e coroinhas de igrejas católicas, desenvolvido com Next.js, TypeScript e shadcn/ui.
 
-![Escala de Acólitos](https://placeholder.svg?height=400&width=800)
-
 ## 📋 Sobre o Projeto
 
 Este projeto é um MVP (Minimum Viable Product) para gerenciar as escalas de serviço de acólitos e coroinhas em paróquias católicas. O sistema permite o cadastro de acólitos, criação de escalas para missas e celebrações, e oferece áreas específicas para administradores e acólitos.
@@ -18,27 +16,6 @@ Este projeto é um MVP (Minimum Viable Product) para gerenciar as escalas de ser
 - [Tailwind CSS](https://tailwindcss.com/) - Framework CSS utilitário
 - [shadcn/ui](https://ui.shadcn.com/) - Componentes de UI reutilizáveis
 - [Lucide React](https://lucide.dev/) - Biblioteca de ícones
-
-escala-acolitos/
-├── app/                    # Diretórios de rotas do Next.js App Router
-│   ├── admin/              # Área administrativa
-│   ├── acolito/            # Área do acólito
-│   ├── cadastro/           # Página de cadastro
-│   ├── login/              # Página de login
-│   ├── globals.css         # Estilos globais
-│   ├── layout.tsx          # Layout principal
-│   └── page.tsx            # Página inicial
-├── components/             # Componentes reutilizáveis
-│   ├── admin-sidebar.tsx   # Barra lateral administrativa
-│   ├── acolito-sidebar.tsx # Barra lateral do acólito
-│   ├── ui/                 # Componentes de UI (shadcn)
-│   └── theme-provider.tsx  # Provedor de tema
-├── lib/                    # Utilitários e funções auxiliares
-├── public/                 # Arquivos estáticos
-├── next.config.js          # Configuração do Next.js
-├── tailwind.config.js      # Configuração do Tailwind CSS
-├── tsconfig.json           # Configuração do TypeScript
-└── package.json            # Dependências e scripts
 
 ## 🛠️ Instalação e Uso
 
