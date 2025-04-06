@@ -1,36 +1,177 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Escala de Acólitos
 
-## Getting Started
+![image](https://github.com/user-attachments/assets/66797740-02b0-401d-abc4-b61c0c9e85ac)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Um sistema de gerenciamento de escala para acólitos e coroinhas de igrejas católicas, desenvolvido com Next.js, TypeScript e shadcn/ui.
+
+<<<<<<< .merge_file_NWt7L3
+![Escala de Acólitos]
+=======
+![Escala de Acólitos](https://placeholder.svg?height=400&width=800)
+>>>>>>> .merge_file_9eJFMp
+
+## 📋 Sobre o Projeto
+
+Este projeto é um MVP (Minimum Viable Product) para gerenciar as escalas de serviço de acólitos e coroinhas em paróquias católicas. O sistema permite o cadastro de acólitos, criação de escalas para missas e celebrações, e oferece áreas específicas para administradores e acólitos.
+
+### 🚀 Tecnologias Utilizadas
+
+- [Next.js 14](https://nextjs.org/) - Framework React com App Router
+- [TypeScript](https://www.typescriptlang.org/) - Superset JavaScript tipado
+- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS utilitário
+- [shadcn/ui](https://ui.shadcn.com/) - Componentes de UI reutilizáveis
+- [Lucide React](https://lucide.dev/) - Biblioteca de ícones
+
+<<<<<<< .merge_file_NWt7L3
+=======
+escala-acolitos/
+├── app/                    # Diretórios de rotas do Next.js App Router
+│   ├── admin/              # Área administrativa
+│   ├── acolito/            # Área do acólito
+│   ├── cadastro/           # Página de cadastro
+│   ├── login/              # Página de login
+│   ├── globals.css         # Estilos globais
+│   ├── layout.tsx          # Layout principal
+│   └── page.tsx            # Página inicial
+├── components/             # Componentes reutilizáveis
+│   ├── admin-sidebar.tsx   # Barra lateral administrativa
+│   ├── acolito-sidebar.tsx # Barra lateral do acólito
+│   ├── ui/                 # Componentes de UI (shadcn)
+│   └── theme-provider.tsx  # Provedor de tema
+├── lib/                    # Utilitários e funções auxiliares
+├── public/                 # Arquivos estáticos
+├── next.config.js          # Configuração do Next.js
+├── tailwind.config.js      # Configuração do Tailwind CSS
+├── tsconfig.json           # Configuração do TypeScript
+└── package.json            # Dependências e scripts
+>>>>>>> .merge_file_9eJFMp
+
+## 🛠️ Instalação e Uso
+
+### Pré-requisitos
+
+- Node.js 18.0.0 ou superior
+- npm ou yarn
+
+### Passos para instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/escala-acolitos.git
+   cd escala-acolitos
+
+
+Thought for 2 seconds```markdown project="Escala de Acólitos" file="README.md"
+...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instale as dependências:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```shellscript
+npm install
+# ou
+yarn install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+3. Execute o servidor de desenvolvimento:
 
-To learn more about Next.js, take a look at the following resources:
+```shellscript
+npm run dev
+# ou
+yarn dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Acesse o aplicativo em `http://localhost:3000`
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📊 Estrutura do Projeto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```plaintext
+escala-acolitos/
+├── app/                    # Diretórios de rotas do Next.js App Router
+│   ├── admin/              # Área administrativa
+│   ├── acolito/            # Área do acólito
+│   ├── cadastro/           # Página de cadastro
+│   ├── login/              # Página de login
+│   ├── globals.css         # Estilos globais
+│   ├── layout.tsx          # Layout principal
+│   └── page.tsx            # Página inicial
+├── components/             # Componentes reutilizáveis
+│   ├── admin-sidebar.tsx   # Barra lateral administrativa
+│   ├── acolito-sidebar.tsx # Barra lateral do acólito
+│   ├── ui/                 # Componentes de UI (shadcn)
+│   └── theme-provider.tsx  # Provedor de tema
+├── lib/                    # Utilitários e funções auxiliares
+├── public/                 # Arquivos estáticos
+├── next.config.js          # Configuração do Next.js
+├── tailwind.config.js      # Configuração do Tailwind CSS
+├── tsconfig.json           # Configuração do TypeScript
+└── package.json            # Dependências e scripts
+```
+
+## ✨ Funcionalidades
+
+### Área Pública
+
+- Página inicial com informações sobre o sistema
+- Tela de login com opções para acólitos e administradores
+- Formulário de cadastro para novos acólitos
+![image](https://github.com/user-attachments/assets/ac372367-5b30-4d3a-95a0-41b1a42bdb70)
+
+
+### Área Administrativa
+
+- Dashboard com visão geral das estatísticas
+- Gerenciamento de acólitos (listagem, status ativo/inativo)
+- Gerenciamento de escalas (criação, edição, visualização)
+- Menu lateral para navegação entre as seções
+
+![image](https://github.com/user-attachments/assets/62b81d46-7528-4491-aa8a-ccd07d992c55)
+
+
+### Área do Acólito
+
+- Dashboard personalizado com próximas missas
+- Visualização das escalas em formato de lista e calendário
+- Perfil do acólito com informações pessoais
+- Status de confirmação para cada escala
+
+  ![image](https://github.com/user-attachments/assets/69818f0f-4252-45cc-afff-006192b6651c)
+
+
+
+## 🔜 Próximos Passos
+
+Este é um MVP com foco no frontend. Os próximos passos incluem:
+
+- Integração com backend (Firebase, Supabase ou API REST)
+- Sistema de autenticação real
+- Notificações por email ou SMS para acólitos
+- Sistema de substituição entre acólitos
+- Relatórios e estatísticas detalhadas
+- Funcionalidade de impressão de escalas
+- Testes automatizados
+
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! Para contribuir:
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
+3. Faça commit das suas alterações (`git commit -m 'Adiciona nova feature'`)
+4. Faça push para a branch (`git push origin feature/nova-feature`)
+5. Abra um Pull Request
+
+
+## 📄 Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+---
+
+Desenvolvido com ❤️ para a comunidade católica.
+  
