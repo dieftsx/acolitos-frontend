@@ -5,8 +5,6 @@
 
 Um sistema de gerenciamento de escala para acólitos e coroinhas de igrejas católicas, desenvolvido com Next.js, TypeScript e shadcn/ui.
 
-![Escala de Acólitos]
-
 ## 📋 Sobre o Projeto
 
 Este projeto é um MVP (Minimum Viable Product) para gerenciar as escalas de serviço de acólitos e coroinhas em paróquias católicas. O sistema permite o cadastro de acólitos, criação de escalas para missas e celebrações, e oferece áreas específicas para administradores e acólitos.
@@ -18,7 +16,6 @@ Este projeto é um MVP (Minimum Viable Product) para gerenciar as escalas de ser
 - [Tailwind CSS](https://tailwindcss.com/) - Framework CSS utilitário
 - [shadcn/ui](https://ui.shadcn.com/) - Componentes de UI reutilizáveis
 - [Lucide React](https://lucide.dev/) - Biblioteca de ícones
-
 
 ## 🛠️ Instalação e Uso
 
