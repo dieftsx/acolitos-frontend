@@ -24,7 +24,7 @@ export default function Home() {
               <Link href="/login">Entrar</Link>
             </Button>
             <Button asChild>
-              <Link href="/cadastro">Cadastrar</Link>
+              <Link href="/register">Cadastrar</Link>
             </Button>
           </div>
         </div>
@@ -40,7 +40,7 @@ export default function Home() {
           </p>
           <div className="flex justify-center gap-4">
             <Button size="lg" asChild>
-              <Link href="/cadastro">Começar Agora</Link>
+              <Link href="/register">Começar Agora</Link>
             </Button>
             <Button size="lg" variant="outline" asChild>
               <Link href="/sobre">Saiba Mais</Link>
@@ -66,7 +66,7 @@ export default function Home() {
             </CardContent>
             <CardFooter>
               <Button variant="ghost" className="w-full" asChild>
-                <Link href="/cadastro">Cadastrar Acólitos</Link>
+                <Link href="/register">Cadastrar Acólitos</Link>
               </Button>
             </CardFooter>
           </Card>
