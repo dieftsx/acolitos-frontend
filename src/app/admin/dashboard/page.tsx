@@ -15,7 +15,7 @@ export default function AdminDashboard() {
         </div>
         <div className="flex gap-2">
           <Button asChild>
-            <Link href="/admin/escalas/nova">Nova Escala</Link>
+            <Link href="/admin/scales/nova">Nova Escala</Link>
           </Button>
           <Button variant="outline" asChild>
             <Link href="/admin/acolitos/novo">Novo Acólito</Link>
